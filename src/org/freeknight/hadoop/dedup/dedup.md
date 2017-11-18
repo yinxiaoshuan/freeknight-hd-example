@@ -8,6 +8,7 @@
 	将真实数据作为MapOutputKey, MapOutputValue为NullWritable.传递给Reducer后, 解析KEYIN即可.
 
 ##样例文件
+
 	dedup-one.txt
 	11:华山
 	12:少林寺
@@ -15,7 +16,7 @@
 	14:台湾省
 	5:凤凰古城
 	9:拉萨
-	
+
 	dedup-two.txt
 	1:北京
 	2:上海
